@@ -15,12 +15,12 @@
             );
         ?>
 		<!--- mobile view show time icon-->
-        <!---<button class="second-nav-toggler" type="button"> <i class="fa fa-bars"></i> </button>--->
+        <button class="second-nav-toggler" type="button"> <i class="fa fa-bars"></i> </button>
     </div>
 </nav>
 
 <!--- mobile view Menus show -->
-<!--- 
+
 <div id="mobile-nav" data-prevent-default="true" data-mouse-events="true">
     <div class="mobile-nav-box">
         <div class="mobile-logo"> <a href="<?php echo get_home_url(); ?>" class="mobile-main-logo"><img src="<?php if(empty($headerlogo)){echo'./wp-content/uploads/2018/08/logo.png';}else{echo $headerlogo;} ?>" alt="Mobile LOGO"></a> <a href="#" class="manu-close">MENU <i class="fa fa-times"></i></a> </div>
@@ -33,4 +33,4 @@
             );
         ?>
     </div>
-</div>---->
+</div>
